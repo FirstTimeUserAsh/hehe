@@ -54,7 +54,7 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
       yesButton.style.fontSize = `${fontSize}px`;
   
       //no button text
-      const messages = ["No","Are you sure?","Momo please?","Aww pleaseee? Mohamed you must be my Valentine! :>","Say yes or else...",];
+      const messages = ["No","Are you sure?","Momo please?","Aww pleaseee? Mohamed you're only allowed to be my Valentine :>","Say yes or else...",];
   
       if (noClickCount === 4) {
         const newButton = document.createElement("button");
@@ -105,7 +105,6 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
     });
   });
   
-  function startBouncing(element) {
     let x = Math.random() * (window.innerWidth - element.offsetWidth);
     let y = Math.random() * (window.innerHeight - element.offsetHeight);
     let dx = 2; let dy = 2; let rotation = 0;

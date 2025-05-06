@@ -90,12 +90,14 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
   
     //yes page
     valentineQuestion.innerHTML = `
-        <img src="./images/image7.gif" alt="Celebration duckie" style="display: block; margin: 0 auto; width: 200px; height: auto;"/>
-
-      Congratulations!!<br>
-      <span style="font-size: 20px; color: #bd1e59;">Congrats! You have scored a Prisha for Valentine's Day! Now I'm gonna hunt you down next Valentine's Day and make sure you spend it with me <3</span>
-    `;
-    valentineQuestion.style.textAlign = "center"; 
+         <div style="text-align: center;">
+      <p class="text-4xl font-bold italic text-[#bd1e59]">Congratulations!!</p>
+      <p style="font-size: 20px; color: #bd1e59; margin-top: 1rem;">
+        Congrats! You have scored a Prisha for Valentine's Day!
+        Now I'm gonna hunt you down next Valentine's Day and make sure you spend it with me &lt;3
+      </p>
+    </div>
+  `;
   
   
     confetti({

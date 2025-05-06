@@ -96,10 +96,8 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
         Congrats! You have scored a Prisha for Valentine's Day!
         Now I'm gonna hunt you down next Valentine's Day and make sure you spend it with me &lt;3
       </p>
-    </div>
-  `;
-  
-  
+    </div>`;
+ 
     confetti({
       particleCount: 150,
       spread: 90,

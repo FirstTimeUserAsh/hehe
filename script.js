@@ -54,7 +54,7 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
       yesButton.style.fontSize = `${fontSize}px`;
   
       //no button text
-      const messages = ["No","Are you sure?","Momo please?","Aww pleaseee? Mohamed you're only allowed to be my Valentine :>","Say yes or else...",];
+      const messages = ["No","Are you sure?","Momo please?","Aww pretty pleaseee? Mohamed you're only allowed to be my Valentine :>","Say yes or else...",];
   
       if (noClickCount === 4) {
         const newButton = document.createElement("button");

@@ -54,7 +54,7 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
       yesButton.style.fontSize = `${fontSize}px`;
   
       //no button text
-      const messages = ["No","Are you sure?","Babyy please?","Don't do this to me :(","Say yes or else...",];
+      const messages = ["No","Are you sure?","Momo please?","Aww pleaseee? Mohamed you must be my Valentine! :>","Say yes or else...",];
   
       if (noClickCount === 4) {
         const newButton = document.createElement("button");
@@ -92,7 +92,7 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
     valentineQuestion.innerHTML = `
       <img src="./images/image7.gif" alt="Celebration duckie" style="display: block; margin: 0 auto; width: 200px; height: auto;"/>
       Congratulations!!<br>
-      <span style="font-size: 20px; color: #bd1e59;">You have scored a baddie for Valentine's Day! <3</span>
+      <span style="font-size: 20px; color: #bd1e59;">Congrats! You have scored a Prisha for Valentine's Day! Now I'm gonna hunt you down next Valentine's Day and make sure you spend it with me <3</span>
     `;
     valentineQuestion.style.textAlign = "center"; 
   
